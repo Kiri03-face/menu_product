@@ -30,11 +30,12 @@
               <ul class="menu">
                 <li><a href="">Home</a></li>
                 <li class="down">
-                  <div class="down-img">
+                  <!-- <div class="down-img">
                     <img class="down-img" src="imeges/down.png" alt="image" />
-                  </div>
+                  </div> -->
                   <div class="down">
-                    <a href="">Products-2</a>
+                    <div class="arrow-8"></div>
+                    <a href="">Products</a>
                   </div>
                   <div class="down-content">
                     <a href="#">Lorem ipsum dolor</a>
@@ -46,7 +47,7 @@
                     <a href="#">Quis nostrud</a>
                   </div>
                 </li>
-                <li><a href="">Payment-3</a></li>
+                <li><a href="">Payment</a></li>
                 <li><a href="">Shipping</a></li>
               </ul>
             </nav>
@@ -67,7 +68,281 @@
         </div>
       </div>
     </header>
-    <main class="main">Main</main>
-    <footer class="footer">Footer</footer>
+    <hr color="black" />
+    <main class="main col-3">
+      <p class="type-txt">Device Type</p>
+      <div class="devace">
+        <p>
+          <input type="checkbox" name="view" value="Laptop" id="Laptop" />
+          <label for="Laptop">Laptop</label>
+        </p>
+        <p>
+          <input type="checkbox" name="view" value="Tablet" id="Tablet" />
+          <label for="Tablet">Tablet</label>
+        </p>
+      </div>
+      <p class="type-txt">Color</p>
+      <div class="devace">
+        <p>
+          <input type="checkbox" name="view" value="Black" id="Black" />
+          <label for="Black">Black</label>
+        </p>
+        <p>
+          <input type="checkbox" name="view" value="Red" id="Red" />
+          <label for="Red">Red</label>
+        </p>
+        <p>
+          <input type="checkbox" name="view" value="Green" id="Green" />
+          <label for="Green">Green</label>
+        </p>
+        <p>
+          <input type="checkbox" name="view" value="Blue" id="Blue" />
+          <label for="Blue">Blue</label>
+        </p>
+        <p>
+          <input type="checkbox" name="view" value="Orange" id="Orange" />
+          <label for="Orange">Orange</label>
+        </p>
+      </div>
+      <p class="type-txt">RAM</p>
+      <div class="devace">
+        <p>
+          <input type="checkbox" name="view" value="1GB" id="1GB" />
+          <label for="1GB">1GB</label>
+        </p>
+        <p>
+          <input type="checkbox" name="view" value="2GB" id="2GB" />
+          <label for="2GB">2GB</label>
+        </p>
+        <p>
+          <input type="checkbox" name="view" value="4GB" id="4GB" />
+          <label for="4GB">4GB</label>
+        </p>
+        <p>
+          <input type="checkbox" name="view" value="6GB" id="6GB" />
+          <label for="6GB">6GB</label>
+        </p>
+        <p>
+          <input type="checkbox" name="view" value="8GB" id="8GB" />
+          <label for="8GB">8GB</label>
+        </p>
+      </div>
+      <p class="options" style="color: rgba(255, 255, 255, 0.65)">
+        Show more options ...
+      </p>
+      <input class="submit" type="submit" />
+    </main>
+    <footer class="footer col-6">
+      <p style="color: rgba(255, 255, 255, 0.65)">
+        Home page > Products > <u>Laptops and Tablets</u>
+      </p>
+      <h1>Laptops and Tablets</h1>
+      <!-- <nav>
+        <ul class="menu-sorting">
+          <a>sort by price</a>
+          <div class="menudown">
+            <li><a>sort by price</a></li>
+            <li><a>sorte by date</a></li>
+            <li><a>sort by popularity</a></li>
+          </div>
+        </ul>
+      </nav> -->
+      <ul class="menu-clearfix">
+        <li>
+          <div class="arow-8"></div>
+          <a href="">Sorting</a>
+          <ul>
+            <li><a href="">sort by price</a></li>
+            <li><a href="">sorte by date</a></li>
+            <li><a href="">sort by popularity</a></li>
+          </ul>
+        </li>
+      </ul>
+      <!-- <div class="case"> -->
+      <!-- <div class="cassette">
+          <img class="case-img" src="imeges/imac.png" alt="fake-shope" />
+          <a>#1 Device Name</a>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p><strong>Type:</strong> Laptop</p>
+        </div> -->
+      <!-- <div class="cassette">
+          <img class="case-img" src="imeges/macmini.png" alt="fake-shope" />
+        </div>
+        <div class="cassette">
+          <img class="case-img" src="imeges/watch.png" alt="fake-shope" />
+        </div>
+      </div>
+      <div class="case">
+        <div class="cassette"></div>
+        <div class="cassette"></div>
+        <div class="cassette"></div>
+      </div>
+      <div class="case">
+        <div class="cassette"></div>
+        <div class="cassette"></div>
+        <div class="cassette"></div>
+      </div> -->
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="imeges/imac.png" class="imgcard" alt="Jane" />
+            <div class="contain">
+              <h2 class="typetxt">#1 Device Name</h2>
+              <p class="Lorem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <p class="type-txt-">Type:<p>Laptop </p></p>
+              <p class="type-txt-">SCREEN SIZE:<p>7 inches</p></p>
+              <p class="type-txt-">RAM: <p>1GB</p></p>
+              <a class="price">$599</a>
+              <p><button class="button">More Details</button></p>
+              <p><button class="button-add">ADD TO CART</button></p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="imeges/macmini.png" class="imgcard" alt="Mike" />
+            <div class="contain">
+              <h2 class="typetxt">#2 Device Name</h2>
+              <p class="Lorem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <p class="type-txt-">Type:<p>Laptop </p></p>
+              <p class="type-txt-">SCREEN SIZE:<p>7 inches</p></p>
+              <p class="type-txt-">RAM: <p>1GB</p></p>
+              <a class="price">$1250</a>
+              <p><button class="button">More Details</button></p>
+              <p><button class="button-add">ADD TO CART</button></p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="imeges/macmini.png" alt="John" class="imgcard" />
+            <div class="contain">
+              <h2 class="typetxt">#3 Device Name</h2>
+              <p class="Lorem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <p class="type-txt-">Type:<p>Laptop </p></p>
+              <p class="type-txt-">SCREEN SIZE:<p>7 inches</p></p>
+              <p class="type-txt-">RAM: <p>1GB</p></p>
+              <a class="price">$399</a>
+              <p><button class="button">More Details</button></p>
+              <p><button class="button-add">ADD TO CART</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="imeges/macboock.png" class="imgcard" alt="Jane" />
+            <div class="contain">
+              <h2 class="typetxt">#4 Device Name</h2>
+              <p class="Lorem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <p class="type-txt-">Type:<p>Laptop </p></p>
+              <p class="type-txt-">SCREEN SIZE:<p>7 inches</p></p>
+              <p class="type-txt-">RAM: <p>1GB</p></p>
+              <a class="price">$599</a>
+              <p><button class="button">More Details</button></p>
+              <p><button class="button-add">ADD TO CART</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img src="imeges/macmini.png" class="imgcard" alt="Mike" />
+            <div class="contain">
+              <h2 class="typetxt">#5 Device Name</h2>
+              <p class="Lorem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <p class="type-txt-">Type:<p>Laptop </p></p>
+              <p class="type-txt-">SCREEN SIZE:<p>7 inches</p></p>
+              <p class="type-txt-">RAM: <p>1GB</p></p>
+              <a class="price">$1250</a>
+              <p><button class="button">More Details</button></p>
+              <p><button class="button-add">ADD TO CART</button></p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="imeges/macboock.png" alt="John" class="imgcard" />
+            <div class="contain">
+              <h2 class="typetxt">#6 Device Name</h2>
+              <p class="Lorem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <p class="type-txt-">Type:<p>Laptop </p></p>
+              <p class="type-txt-">SCREEN SIZE:<p>7 inches</p></p>
+              <p class="type-txt-">RAM: <p>1GB</p></p>
+              <a class="price">$399</a>
+              <p><button class="button">More Details</button></p>
+              <p><button class="button-add">ADD TO CART</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="imeges/imac.png" class="imgcard" alt="Jane" />
+            <div class="contain">
+              <h2 class="typetxt">#7 Device Name</h2>
+              <p class="Lorem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <p class="type-txt-">Type:<p>Laptop </p></p>
+              <p class="type-txt-">SCREEN SIZE:<p>7 inches</p></p>
+              <p class="type-txt-">RAM: <p>1GB</p></p>
+              <a class="price">$599</a>
+              <p><button class="button">More Details</button></p>
+              <p><button class="button-add">ADD TO CART</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img src="imeges/macmini.png" class="imgcard" alt="Mike" />
+            <div class="contain">
+              <h2 class="typetxt">#8 Device Name</h2>
+              <p class="Lorem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <p class="type-txt-">Type:<p>Laptop </p></p>
+              <p class="type-txt-">SCREEN SIZE:<p>7 inches</p></p>
+              <p class="type-txt-">RAM: <p>1GB</p></p>
+              <a class="price">$1250</a>
+              <p><button class="button">More Details</button></p>
+              <p><button class="button-add">ADD TO CART</button></p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="imeges/imac.png" alt="John" class="imgcard" />
+            <div class="contain">
+              <h2 class="typetxt">#9 Device Name</h2>
+              <p class="Lorem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <p class="type-txt-">Type:<p>Laptop </p></p>
+              <p class="type-txt-">SCREEN SIZE:<p>7 inches</p></p>
+              <p class="type-txt-">RAM: <p>1GB</p></p>
+              <a class="price">$339</a>
+              <p><button class="button">More Details</button></p>
+              <p><button class="button-add">ADD TO CART</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
